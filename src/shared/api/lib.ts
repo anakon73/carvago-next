@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://carvago-server.vercel.app'
+export const BASE_URL = 'http://localhost:5000'
 
 export function pick<T extends Record<string, any>, K extends [...(keyof T)[]]>(
   base: T,
